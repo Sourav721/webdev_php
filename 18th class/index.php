@@ -1,5 +1,7 @@
 <?php 
-
-echo "i love you sathi"
+$a = 10;
+$b = 23;
+$c = $a+$b;
+echo $c;
 
 ?>
