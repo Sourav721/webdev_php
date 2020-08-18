@@ -14,4 +14,12 @@ for($i=1;$i<=100;$i++){
     else{ echo $i."</br>";}
 }
 
+/*Associative Array*/
+
+$price = array("shirt"=>"100","punjabi"=>"300","tupi"=>"150");
+
+foreach($price as $p=>$value){
+    echo $p.":"." ".$value."</br>";
+}
+
 ?>
