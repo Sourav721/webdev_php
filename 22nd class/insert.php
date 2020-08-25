@@ -12,7 +12,7 @@ if(isset($_POST['submit'])){
 
     $query =mysqli_query($conn,$sql);
     if($query){
-        header('location:insert.php');
+        header('location:select.php');
         http_response_code(200);
         echo "succesful";
 
